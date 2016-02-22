@@ -1,0 +1,51 @@
+* Introduction And Mission
+Over the course of 10 days, or two buinsess weeks. I plan on teaching Keegan the basics of python as well as attempt to
+spark an interest in it. I'll need to install python 3 on this machine so I can double check his work, as well as not have to do
+any nasty 3>2 conversions. As I still mostly program in 2.7 this will also give me an excuse to switch to using 3.
+* Week 1
+Will be a crash course into python. We'll cover variables, data types, flow control, and syntax.
+I will make each excerise and have a key on this document, that I can check against.  
+** Day 1
+To start we will make Hello.py a simple program that prints out "Hello world!" it's tradition after all.
+This will show off that you can make a computer do what ever you tell it to. We will then make so it says
+"Hello (Insert Name)!" to demonstrate user input. All the while attempting to get him to comment in what each
+line does. Then we will play around with math to show off that computers are better at math than us.
+
+** Day 2
+We'll cover boolian logic, and use that to show off if statements. 
+Change the hello.py to have an if clause that says if x == "" then say world instead
+this will show off flow control. Add in some more prompts to further show off flow, like
+age and such. And these will change the output.
+** Day 3
+Introduce Functions, we'll make a little function called prompter, that takes user input and
+a string and sends that out for the hello.py. Then We'll start on the guess number game.
+** Day 4
+Continue working on the number game, and try statements. and Exceptions.
+** Day 5
+Introduction into GUIs and and brainstorming for the game he wants to build. 
+
+
+
+* My versions
+Note that these are written in python 2.7 not python 3
+This is partally so that Keegan can't strictly copy them, and because I h8 python 3
+I'll transcribe his versions into the document after they're finished.
+
+#+name: Daniel-Hello1
+#+begin_src python :results output    
+  print 'Hello World'
+#+end_src
+
+#+RESULTS: Daniel-Hello1
+: Hello World
+
+one of the simplest programs around.
+
+
+
+This uses some elisp trickery but the same idea will be used 
+#+NAME: Daniel-Hello2
+#+begin_src python :var input=(read-string name)
+#+end_src
+
+
