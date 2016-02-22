@@ -3,6 +3,9 @@
 *** 2016-02-21
 
 Today we set up my intensive. My plan is to work with my bother and dad to create 2 games using python. Dad set up a [[https://github.com/melioratus/homework/blob/master/kcs/2016-winter-intensive.org][github repository]] to track my work. Tomorrow we will start.
+*** 2016-02-22
+today i learned  how to open idle, what printing is, it says a something  that you told it to say. then we told it to print out a variable. i leered how to make a variable. how to math in python
+we learned how to make a list and how to change made variables
 
 ** Task [0/2]
 *** TODO Complete Journal Every Day
@@ -14,3 +17,168 @@ Today we set up my intensive. My plan is to work with my bother and dad to creat
   - Progress
 
 *** TODO Complete Project
+
+** Work
+
+*** Hello World
+A staple of learning to program, the Hello World program is the simplest 'real' program.
+#+Name: Hello-World-1
+#+begin_src python :tangle hello-1.py :shebang #!C:\cygwin64\bin\python3 :results output    
+  print('hi five')
+#+end_src
+
+#+RESULTS: Hello-World-1
+: hi five
+
+
+#+RESULTS: Hello
+
+#+Name: hello-2
+#+begin_src python :tangle hello-2.py :shebang #!C:\cygwin64\bin\python3 :results output    
+  x = 'MORTAL KOMBAT!!!'
+  print(x)
+#+end_src
+
+#+RESULTS:
+: MORTAL KOMBAT!!!
+
+
+**** Why Use Print?
+- We can use the print function for:
+  - Dialogue
+  - Tell the user someting
+  - Prompt the user for something
+
+**** Why variables?
+- We use Variables for:
+  - Telling the computer something
+  - Store info
+  - Store user input
+
+Now lets try prompting!
+
+#+name: hello-3
+#+begin_src python :tangle hello-3.py :shebang #!C:\cygwin64\bin\python3 :results output    
+  hello = 'hello'
+  prompt = "What is your name?: "
+  print(prompt)
+  user_input = input('==> ')
+  print(hello, user_input) 
+#+end_src
+
+And when we ran this we got:
+#+BEGIN_EXAMPLE
+  $ python3 hello-3.py
+  What is your name?: 
+  ==> keegan
+  hello keegan
+#+END_EXAMPLE
+
+- Other thing store in variables:
+  - Strings
+  - Numbers
+  - User Input
+  - Lists
+  - Tuples
+  - Dictonaries
+
+
+
+
+
+
+
+#+name: list-example
+#+begin_src python :tangle list-example.py :shebang #!C:\cygwin64\bin\python3 :results output    
+  cheese_fries = ['banannas','Hamburgers', 1, 'nyx']
+  print(cheese_fries)
+#+end_src
+
+#+RESULTS: list-example
+: ['banannas', 'Hamburgers', 1, 'nyx']
+
+
+
+Did some experimenting with shells.
+#+BEGIN_EXAMPLE
+  Python 3.5.1 (v3.5.1:37a07cee5969, Dec  6 2015, 01:38:48) [MSC v.1900 32 bit (Intel)] on win32
+  Type "copyright", "credits" or "license()" for more information.
+  >>> hello
+  Traceback (most recent call last):
+    File "<pyshell#0>", line 1, in <module>
+      hello
+  NameError: name 'hello' is not defined
+  >>> hello'
+  SyntaxError: EOL while scanning string literal
+  >>> hello = nyk
+  Traceback (most recent call last):
+    File "<pyshell#2>", line 1, in <module>
+      hello = nyk
+  NameError: name 'nyk' is not defined
+  >>> hello = 'nyk'
+  >>> hello
+  'nyk'
+  >>> print(keggan)
+  Traceback (most recent call last):
+    File "<pyshell#5>", line 1, in <module>
+      print(keggan)
+  NameError: name 'keggan' is not defined
+  >>> print('keggan')
+  keggan
+  >>> puppy = 'cheez'
+  >>> puppy
+  'cheez'
+  >>> 5 = 'keegan'
+  SyntaxError: can't assign to literal
+  >>> keggan = 'keegan'
+  >>> keeggan
+  Traceback (most recent call last):
+    File "<pyshell#11>", line 1, in <module>
+      keeggan
+  NameError: name 'keeggan' is not defined
+  >>> keggan
+  'keegan'
+  >>> tell me your name
+  SyntaxError: invalid syntax
+  >>> print(input('what s your name'))
+  what s your name keegan
+   keegan
+  >>> 2+30
+  32
+  >>> 123*69696969696969
+  8572727272727187
+  >>> 123*69696969696969
+  8572727272727187
+  >>> print(input('what s your name'))
+  what s your namehiouhniojolp
+  hiouhniojolp'
+  >>>  
+
+#+END_EXAMPLE
+
+
+#+Name: jokes.py
+#+begin_src python  :tangle jokes.py :shebang #!C:\cygwin64\bin\python3 :results output    
+  jokes = ["Photons have mass? I didn't know they were catholic",
+           "Where does Darth Vader buy his clothes? The Darth Maul!",
+           "Where does the Dragon-born get his skooma? High H'rothgar!"
+      ]
+
+  for joke in jokes:
+      print(joke)
+      input()
+      
+#+end_src
+
+#+name: numbers
+#+begin_src python  :tangle numbers.py :shebang #!C:\cygwin64\bin\python3 :results output    
+  x = [949684,123132]
+  y = [894623,213234525]
+  p = x[0]*y[0]
+  print(p)
+  p = x[1] * y[1]
+  print(p)
+  p = x[0] * y[1]
+  print(p)
+
+#+end_src
