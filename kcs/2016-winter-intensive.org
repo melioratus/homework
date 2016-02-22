@@ -1,2 +1,12 @@
 * 2016 Winter Intensive
+** Journal
+** Task [0/2]
+*** TODO Complete Journal Every Day
 
+- Can Include
+  - Screen shots
+  - Pictures
+  - Notes
+  - Progress
+
+*** TODO Complete Project
