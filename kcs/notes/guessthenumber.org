@@ -1,0 +1,74 @@
+#+Author: Daniel Smith
+#+Email: Nalisarc@gmail.com
+#+Startup: showall
+
+A project idea from reddit this is my attempt at the project.
+
+#+Name: Main
+#+begin_src python :exports none :tangle guessthenumber.py :noweb yes 
+  <<imports>>
+  <<constants>>
+  <<functions>>
+  if __name__ == '__main__':
+      main()
+      sys.exit()
+#+end_src
+#+name: imports
+#+begin_src python
+  from random import randint
+  import sys
+#+end_src
+
+#+name: constants
+#+begin_src python 
+  number_range = [1,100]
+
+#+end_src
+
+#+name: functions
+#+begin_src python 
+  def number_gen(number_range):
+      """ Generates the number to guess"""
+      return randint(number_range[0],number_range[1])
+  def main():
+      """the main module!"""
+      end = False
+      while end == False:
+          number = number_gen(number_range)
+          responces = []
+          while 0 not in responces:
+              responces.append(guesser(number))
+          else:
+              print 'it took you {0} guesses!'.format(len(responces))
+              r = raw_input('Correct! Play again? (y/n)')
+              if r == 'n':
+                  end = True
+              elif r == 'y':
+                  number = number_gen(number_range)
+                  responces = []
+                  continue
+              else:
+                  print 'that\'s not what I was expecting'
+                  continue
+                  
+                  
+
+      
+  def guesser(random_number):
+      """takes user input and tests it against the number"""
+      try:
+          guess = int(raw_input('Your Number: '))
+          if guess == random_number:
+              return 0 #the win code!
+          else:
+              if guess > random_number:
+                  print 'too high'
+              else:
+                  print 'too low'
+              return 1 #the lose code!
+      except TypeError:
+          print 'That\'s not a number!'
+          return 2 #error code!
+
+      
+#+end_src
