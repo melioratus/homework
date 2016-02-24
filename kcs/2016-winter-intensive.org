@@ -6,6 +6,8 @@ Today we set up my intensive. My plan is to work with my bother and dad to creat
 *** 2016-02-22
 today i learned  how to open idle, what printing is, it says a something  that you told it to say. then we told it to print out a variable. i leered how to make a variable. how to math in python
 we learned how to make a list and how to change made variables
+*** 2016-02-23
+Today Dad taught me that everything is numbers in a computer. Programs are like a recipe for potato soup, just kidding. variables are like a cup because you can fill them. 
 
 ** Task [0/2]
 *** TODO Complete Journal Every Day
