@@ -184,3 +184,29 @@ Did some experimenting with shells.
   print(p)
 
 #+end_src
+
+
+#+begin_src python :results output    
+  def fun(x):
+      return x
+
+
+  print fun('hello')
+#+end_src
+
+#+RESULTS:
+: hello
+
+
+#+name: puppylatin
+#+begin_src python :tangle puppylatin.py :shebang #!C:\cygwin64\bin\python3 :results output
+  def puppylatin(oliver):
+      cheese = ['a','e','i','o','u']
+      if oliver[0] in cheese:
+          return oliver + 'yay'
+      elif oliver[0] not in cheese:
+          return oliver[1:] + oliver[0] +'ay'
+      else:
+          return None
+
+#+end_src
