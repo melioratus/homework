@@ -3,6 +3,13 @@
 ** What are the rules?
 
 - Game is 3 rounds
+   
+  #+NAME: rounds
+  #+BEGIN_SRC python :session 
+  rounds = 3
+  #+END_SRC
+
+  #+RESULTS: rounds
 
 - 2 people to play
 
