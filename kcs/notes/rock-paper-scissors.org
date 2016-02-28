@@ -1,0 +1,27 @@
+* Rock Paper Scissors Game
+
+** What are the rules?
+
+- Game is 3 rounds
+
+- 2 people to play
+
+- They can pick
+
+  | Rock     |
+  | Paper    |
+  | Scissors |
+
+** How do we know who wins?
+
+| Game | Round | Player 1 | Player 2 | Winner   |
+|------+-------+----------+----------+----------|
+|    1 |     1 | Rock     | Rock     | Tie      |
+|    1 |     2 | Rock     | Paper    | Player 2 |
+|    1 |     3 | Rock     | Scissor  | Player 1 |
+|    2 |     4 | Paper    | Rock     | Player 1 |
+|    2 |     5 | Paper    | Paper    | Tie      |
+|    2 |     6 | Paper    | Scissor  | Player 2 |
+|    3 |     7 | Scissors | Rock     | Player 2 |
+|    3 |     8 | Scissors | Paper    | Player 1 |
+|    3 |     9 | Scissors | Scissor  | Tie      |
