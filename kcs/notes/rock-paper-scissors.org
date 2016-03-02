@@ -4,7 +4,17 @@
 
 - Game is 3 rounds
 
+#+BEGIN_SRC python
+  #
+  # How many rounds are in a game?
+  #
+  rounds=3
+#+END_SRC
+
+
 - 2 people to play
+
+
 
 - They can pick
 
