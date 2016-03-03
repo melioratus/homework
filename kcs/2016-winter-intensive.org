@@ -9,6 +9,10 @@ we learned how to make a list and how to change made variables
 *** 2016-02-23
 Today Dad taught me that everything is numbers in a computer. Programs are like a recipe for potato soup, just kidding. variables are like a cup because you can fill them. 
 *** 2016-02-28
+Worked on writing functions. Made 'puppy latin' a script that takes words and gives the pig latin version. 
+
+*** 2016-03-1
+Worked on some of the rock paper sissors game, we made a rounds variable and talked about how to put the game together.
 ** Task [0/2]
 *** TODO Complete Journal Every Day
 
