@@ -1,7 +1,6 @@
 * 2016 Winter Intensive
 ** Journal
 *** 2016-02-21
-
 Today we set up my intensive. My plan is to work with my bother and dad to create 2 games using python. Dad set up a [[https://github.com/melioratus/homework/blob/master/kcs/2016-winter-intensive.org][github repository]] to track my work. Tomorrow we will start.
 *** 2016-02-22
 today i learned  how to open idle, what printing is, it says a something  that you told it to say. then we told it to print out a variable. i leered how to make a variable. how to math in python
@@ -10,9 +9,12 @@ we learned how to make a list and how to change made variables
 Today Dad taught me that everything is numbers in a computer. Programs are like a recipe for potato soup, just kidding. variables are like a cup because you can fill them. 
 *** 2016-02-28
 Worked on writing functions. Made 'puppy latin' a script that takes words and gives the pig latin version. 
-
-*** 2016-03-1
+*** 2016-03-01
 Worked on some of the rock paper sissors game, we made a rounds variable and talked about how to put the game together.
+We worked variables, which is another word for a name for something. We use variables to hold things. 
+So we can use these names to tell the computer to fetch them for us.
+*** 2016-03-02
+We talked about functions and variables, and cheat codes. 
 ** Task [0/2]
 *** TODO Complete Journal Every Day
 
@@ -23,7 +25,7 @@ Worked on some of the rock paper sissors game, we made a rounds variable and tal
   - Progress
 
 *** TODO Complete Project
-
+    
 ** Work
 
 *** Hello World
@@ -105,7 +107,7 @@ And when we ran this we got:
 
 
 
-Did some experimenting with shells.
+*** Did some experimenting with shells.
 #+BEGIN_EXAMPLE
   Python 3.5.1 (v3.5.1:37a07cee5969, Dec  6 2015, 01:38:48) [MSC v.1900 32 bit (Intel)] on win32
   Type "copyright", "credits" or "license()" for more information.
@@ -162,7 +164,7 @@ Did some experimenting with shells.
 
 #+END_EXAMPLE
 
-
+*** loops
 #+Name: jokes.py
 #+begin_src python  :tangle jokes.py :shebang #!C:\cygwin64\bin\python3 :results output    
   jokes = ["Photons have mass? I didn't know they were catholic",
@@ -175,7 +177,7 @@ Did some experimenting with shells.
       input()
       
 #+end_src
-
+*** lists
 #+name: numbers
 #+begin_src python  :tangle numbers.py :shebang #!C:\cygwin64\bin\python3 :results output    
   x = [949684,123132]
@@ -189,7 +191,7 @@ Did some experimenting with shells.
 
 #+end_src
 
-
+*** functions
 #+begin_src python :results output    
   def fun(x):
       return x
@@ -214,3 +216,5 @@ Did some experimenting with shells.
           return None
 
 #+end_src
+
+
