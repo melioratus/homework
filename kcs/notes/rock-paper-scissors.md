@@ -177,7 +177,7 @@ How do we know which player wins?
 Rock Paper Scissors Program
 ===========================
 
-Below is the <rock-paper-scissors.py> program
+Below is the [rock-paper-scissors](rock-paper-scissors.py) program
 
     #
     # Start
