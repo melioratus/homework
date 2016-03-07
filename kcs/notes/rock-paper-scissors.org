@@ -103,7 +103,7 @@
 :ID:       450ADD11-1659-49A4-AF22-FE9C7D8F737E
 :END:
 
-Below is the rock-paper-scissors.py program
+Below is the [[file:rock-paper-scissors.py]] program
 
 #+NAME: rock-paper-scissors-program
 #+BEGIN_SRC python :noweb yes :eval never :tangle yes :shebang #!/usr/bin/env python
