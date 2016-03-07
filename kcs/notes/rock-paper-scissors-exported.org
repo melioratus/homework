@@ -1,10 +1,9 @@
+# Created 2016-03-06 Sun 23:23
+#+TITLE: 
+#+AUTHOR: Brian Smith
 * Rock Paper Scissors Game
 
 ** What are the rules?
-:PROPERTIES:
-:ID:       17D6F155-FA61-4464-906D-97660EC1CC63
-:END:
-
 - Player can pick
 
   | Choices  |
@@ -22,20 +21,20 @@
 - Game is 3 rounds
 
   #+NAME: start
-  #+BEGIN_SRC python :eval never 
-  #
-  # Start
-  #
-  r=3
+  #+BEGIN_SRC python
+    #
+    # Start
+    #
+    r=3
 
-  i=0
+    i=0
   #+END_SRC
 
 
 - 2 people to play
 
   #+NAME: ask-player1
-  #+BEGIN_SRC python :eval never 
+  #+BEGIN_SRC python
     #
     # Ask Player 1 to choose rock paper or scissors
     #
@@ -66,8 +65,49 @@
 | Scissors | Paper    | Player 1 |
 | Scissors | Rock     | Player 2 |
 
-#+NAME: make-check-winner 
-#+BEGIN_SRC python :eval never 
+#+NAME: make-check-winner
+#+BEGIN_SRC python
+
+  def checkwinner(p1,p2):
+      if p1 == p2:
+          return 'Tie'
+      elif p1 == 'rock'     and p2 == 'scissors':
+          return 'Player 1 wins!'
+      elif p1 == 'rock'     and p2 == 'paper':
+          return 'Player 2 wins!'
+      elif p1 == 'paper'    and p2 == 'rock':
+          return 'Player 1 wins!'
+      elif p1 == 'paper'    and p2 == 'scissors':
+          return 'Player 2 wins!'
+      elif p1 == 'scissors' and p2 == 'paper':
+          return 'Player 1 wins!'
+      elif p1 == 'scissors' and p2 == 'rock':
+          return 'Player 2 wins!'
+      else:
+          return 'Uh oh! I cannot tell who won the game!'
+#+END_SRC
+
+#+NAME: check-and-say-winner
+#+BEGIN_SRC python
+  #
+  # Check & Say Winner
+  #
+
+  print checkwinner(player1,player2)
+#+END_SRC
+
+* Rock Paper Scissors Program
+Below is the [[file:rock-paper-scissors.py][rock paper scissors]] program
+
+#+NAME: rock-paper-scissors-program
+#+BEGIN_SRC python
+  #
+  # Start
+  #
+  r=3
+
+  i=0
+
 
   def checkwinner(p1,p2):
       if p1 == p2:
@@ -87,29 +127,6 @@
       else:
           return 'Uh oh! I cannot tell who won the game!'
 
-#+END_SRC
-
-#+NAME: check-and-say-winner
-#+BEGIN_SRC python :eval never 
-  #
-  # Check & Say Winner
-  #
-
-  print checkwinner(player1,player2)
-#+END_SRC
-
-* Rock Paper Scissors Program
-:PROPERTIES:
-:ID:       450ADD11-1659-49A4-AF22-FE9C7D8F737E
-:END:
-
-Below is the [[file:rock-paper-scissors.py][rock paper scissors]] program
-
-#+NAME: rock-paper-scissors-program
-#+BEGIN_SRC python :noweb yes :eval never :tangle yes :shebang #!/usr/bin/env python
-  <<start>>
-
-  <<make-check-winner>>
 
   #
   # Loop
@@ -117,11 +134,23 @@ Below is the [[file:rock-paper-scissors.py][rock paper scissors]] program
 
   while i < r:
 
-      <<ask-player1>>
+      #
+      # Ask Player 1 to choose rock paper or scissors
+      #
 
-      <<ask-player2>>
+      player1 = raw_input('Player 1, choose rock, paper or scissors: ')
 
-      <<check-and-say-winner>>
+      #
+      # Ask Player 2 to choose rock paper or scissors
+      #
+
+      player2 = raw_input('Player 2, choose rock, paper or scissors: ')
+
+      #
+      # Check & Say Winner
+      #
+
+      print checkwinner(player1,player2)
 
       #
       # i+1
@@ -132,6 +161,4 @@ Below is the [[file:rock-paper-scissors.py][rock paper scissors]] program
   #
   # Stop
   #
-
 #+END_SRC
-
