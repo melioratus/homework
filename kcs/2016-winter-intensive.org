@@ -14,7 +14,15 @@ Worked on some of the rock paper sissors game, we made a rounds variable and tal
 We worked variables, which is another word for a name for something. We use variables to hold things. 
 So we can use these names to tell the computer to fetch them for us.
 *** 2016-03-02
-We talked about functions and variables, and cheat codes. 
+Sick
+*** 2016-03-03
+we talked about functions and variables, and cheat codes. 
+*** 2016-03-04
+made some signs and talked about variables and loops and pictures.
+*** 2016-03-05
+made more signs and a scale out of wood. talked about loops.
+*** 2016-03-06
+finished the signs and practiced being the computer doing the rock-paper-scissors program. my brother took pictures for program. talked about how ladies used to be computers as a job when my great grandma Helena was born.
 ** Task [0/2]
 *** TODO Complete Journal Every Day
 
