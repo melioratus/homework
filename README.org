@@ -1,4 +1,5 @@
 * Welcome to Keegan's 1st Program
 - Rock Paper Scissor Program Notes
+- rock-paper-scissors.py
 - Journal
 - Slideshow
