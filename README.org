@@ -1,5 +1,5 @@
 * Welcome to Keegan's 1st Program
-- Rock Paper Scissor Program Notes
-- rock-paper-scissors.py
-- Journal
-- Slideshow
+- [[https://github.com/melioratus/homework/blob/master/kcs/notes/rock-paper-scissors.md][Rock Paper Scissor Program Notes]]
+- [[https://github.com/melioratus/homework/blob/master/kcs/notes/rock-paper-scissors.py][rock-paper-scissors.py]]
+- [[https://github.com/melioratus/homework/blob/master/kcs/2016-winter-intensive.org][Project Journal]]
+- [[https://www.youtube.com/watch?v=C6kYbPTl8oY][Picture Slideshow]]
