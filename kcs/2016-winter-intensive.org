@@ -23,8 +23,10 @@ made some signs and talked about variables and loops and pictures.
 made more signs and a scale out of wood. talked about loops.
 *** 2016-03-06
 finished the signs and practiced being the computer doing the rock-paper-scissors program. my brother took pictures for program. talked about how ladies used to be computers as a job when my great grandma Helena was born.
-** Task [0/2]
-*** TODO Complete Journal Every Day
+*** 2016-03-07
+made picture slideshow and posted to youtube, https://youtu.be/C6kYbPTl8oY . dad emailed mom the links to github project.
+** Task [2/2]
+*** DONE Complete Journal Every Day
 
 - Can Include
   - Screen shots
@@ -32,7 +34,7 @@ finished the signs and practiced being the computer doing the rock-paper-scissor
   - Notes
   - Progress
 
-*** TODO Complete Project
+*** DONE Complete Project
     
 ** Work
 
