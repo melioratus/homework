@@ -26,7 +26,7 @@ finished the signs and practiced being the computer doing the rock-paper-scissor
 *** 2016-03-07
 made picture slideshow and posted to youtube, https://youtu.be/C6kYbPTl8oY . dad emailed mom the links to github project.
 ** Task [2/2]
-*** DONE Complete Journal Every Day
+*** DONE Complete Journal 
 
 - Can Include
   - Screen shots
